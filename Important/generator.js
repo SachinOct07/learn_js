@@ -4,8 +4,8 @@ function* generator(){
   yield 3;
 }
 
-let gen = generator();
-console.log(gen.next().value);
-console.log(gen.next());
-console.log(gen.next());
-console.log(gen.next());
+let gen1 = generator();
+console.log(gen1.next().value);
+console.log(gen1.next());
+console.log(gen1.next());
+console.log(gen1.next());
